@@ -1,0 +1,35 @@
+.selcet-dropdown {
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid #8e8a8a;
+  color: #8e8a8a;
+  border: 1px solid #8e8a8a;
+  border-radius: 3px;
+}
+.pointer {
+  cursor: pointer;
+}
+button {
+  &[disabled] {
+    opacity: 0.5;
+  }
+}
+.dropdowns-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.dropdowns-container-party-3 {
+  display: flex;
+  justify-content: space-between;
+}
+.w-50 {
+  width: 50%;
+}
+.w-100 {
+  width: 100%;
+}
+.p-20-0 {
+  padding: 20px 0;
+}

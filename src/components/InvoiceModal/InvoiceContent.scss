@@ -1,0 +1,41 @@
+#invoice-content {
+  padding: 0.1em;
+  hr {
+    border: 0.5em solid transparent;
+  }
+  #customer-information {
+    border-collapse: collapse;
+    width: 100%;
+    .border-left-0 {
+      border-left: 0;
+    }
+    .border-right-0 {
+      border-right: 0;
+    }
+    .border-top-0 {
+      border-top: 0;
+    }
+    .border-bottom-0 {
+      border-bottom: 0;
+    }
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    thead {
+      border-right: 1px solid #ddd;
+
+      h5 {
+        padding: 0.5em;
+        border: 1px solid #ddd;
+
+        background-color: #f2f2f2;
+        border-top-left-radius: 0.5em;
+        margin: 0;
+      }
+    }
+  }
+}

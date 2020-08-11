@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "narges";
+  src: url("./assets/IRANSans/WebFonts/fonts/ttf/IRANSansWeb.ttf");
+}
+body {
+  font-family: "narges";
+}
+
+.index {
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  width: 35%;
+}
+.green-button {
+  background-color: #25b79b;
+  border: 1px solid #25b79b;
+  border-radius: 20px;
+  color: white;
+  width: 110px;
+  height: 40px;
+  float: left;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.white-green-border-button {
+  background-color: white;
+  border: 1px solid #25b79b;
+  border-radius: 20px;
+  color: #25b79b;
+  width: 110px;
+  height: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.color-silver {
+  color: #8e8a8a !important;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+.rtl {
+  direction: rtl;
+}
+.p-5 {
+  padding: 5px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .index {
+    position: relative;
+    right: unset;
+    top: unset;
+    width: 100%;
+  }
+}

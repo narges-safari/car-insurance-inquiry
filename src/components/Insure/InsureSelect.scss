@@ -1,0 +1,30 @@
+.insurance-icon-size {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #d0bfbf;
+  border-radius: 10px;
+  margin: 10px;
+}
+.insurance-container {
+  display: inline-flex;
+}
+.disabled-button {
+  pointer-events: none;
+  opacity: 0.4;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.none-decoration {
+  text-decoration: none;
+  color: black;
+}

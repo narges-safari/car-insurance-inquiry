@@ -1,0 +1,23 @@
+.navbar-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 30px 10px 70px;
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+  z-index: 3;
+}
+.profile {
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  .navbar-ul {
+    padding: 20px;
+    .nav-title {
+      display: none;
+    }
+  }
+}

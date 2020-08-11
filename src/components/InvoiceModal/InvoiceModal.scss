@@ -1,0 +1,46 @@
+#invoice-modal {
+  &.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 4;
+    top: 0;
+    left: 0;
+  }
+  .modal-window {
+    padding: 0.5em;
+    background: white;
+    height: 75%;
+    width: 75%;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 6px 0px #4d4d4d;
+  }
+  .content {
+    direction: rtl;
+    scroll-behavior: smooth;
+    overflow: auto;
+    overflow-x: hidden;
+    height: calc(90% - 0.5em);
+  }
+  .header {
+    display: inline-flex;
+    direction: rtl;
+    .title {
+      align-items: center;
+      display: flex;
+      font-weight: bold;
+    }
+    .close-button {
+      padding: 0;
+      border: unset;
+      background: transparent;
+      h1 {
+        margin: 0;
+      }
+    }
+  }
+}
